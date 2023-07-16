@@ -30,4 +30,6 @@ func main() {
 	}
 
 	fmt.Println("Split - ", strings.Split(str1, ","))
+
+	fmt.Println("Replace - ", strings.Replace(str1, "is", "was"))
 }
